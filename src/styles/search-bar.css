@@ -1,0 +1,26 @@
+.search {
+  background-color: #3b82f6;
+  border: 2px solid #5584ac;
+  padding: 0.8 0.8rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  color: white;
+  font-family: inherit;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+}
+
+.search:focus {
+  outline: 0;
+  background-color: #309fef;
+}
+
+.search::placeholder {
+  padding-left: 20px;
+  color: white;
+}
